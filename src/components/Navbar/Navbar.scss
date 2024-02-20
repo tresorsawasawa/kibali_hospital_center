@@ -1,39 +1,39 @@
 @import '../../assets/stylesheets/base/colors';
 @import '../../assets/stylesheets/base/mixins';
 
-// .header {
-//   width: 90%;
-//   margin: 0 auto;
-//   background-color: $lightBgCol;
+.header {
+  margin: 0 auto;
 
-//   .LogoContainer {
-//     width: 150px;
-//     height: 80px;
-//   }
+  .LogoContainer {
+    width: 150px;
+    height: 80px;
+  }
 
-//   .navbar {
-//     .navLinks {
-//       .linkItem {
-//         &:hover {
-//           color: $greenCol;
-//         }
+  .navbar {
+    .navLinks {
+      .linkItem {
+        color: $textColor;
+        f
+        &:hover {
+          color: $primary;
+        }
 
-//         .navLink {
-//           position: relative;
+        .navLink {
+          position: relative;
 
-//           &:hover {
-//             color: $greenCol;
-//           }
+          &:hover {
+            color: $primary;
+          }
 
-//           &.active {
-//             color: $greenCol;
+          &.active {
+            color: $primary;
 
-//             &::after {
-//               @include navLinkActiveHove;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+            &::after {
+              @include navLinkActiveHove;
+            }
+          }
+        }
+      }
+    }
+  }
+}

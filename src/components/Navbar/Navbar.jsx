@@ -20,13 +20,13 @@ const links = [
     id: 3,
     name: 'Your arrival',
     label: 'arrival',
-    to: '/',
+    to: '/arrivals',
   },
   {
     id: 4,
     name: 'Pages',
     label: 'pages',
-    to: '/',
+    to: '/page',
   },
   {
     id: 5,
@@ -50,14 +50,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className="header flex justify-between items-center">
-      <div className="LogoContainer flex justify-center items-center h-50 w-100">
-        <NavLink to="/" className="LogoContent py-[2px] flex justify-center items-center flex-col">
+    <div className="header w-[85%] flex justify-between items-center">
+      <div className="LogoContainer py-1 flex justify-center items-center h-50 w-100">
+        <NavLink to="/" className="LogoContent py-[12px] flex justify-center items-center flex-col">
           <img src={Logo} alt="Logo" className="w-100 h-auto" />
-
         </NavLink>
       </div>
-      <nav className="navbar w-full">
+
+      <nav className="navbar w-full py-1">
         <ul className="navLinks flex justify-end items-center gap-[2rem]">
           {links.map(({
             id, name, to, label,
@@ -67,7 +67,7 @@ const Navbar = () => {
                 key={id}
                 to={to}
                 onClick={() => handleLinkClick(label)}
-                className={activeLink === name ? 'active navLink text-[13px] uppercase' : 'navLink text-[13px] uppercase'}
+                className={activeLink === name ? 'active navLink text-[16px] uppercase' : 'navLink text-[18px] uppercase'}
               >
                 {name}
               </NavLink>

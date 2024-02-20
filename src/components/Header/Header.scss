@@ -1,8 +1,7 @@
 @import '../../assets/stylesheets/base/colors';
 
-// .Header {
-//   // width: 100%;
-//   // position: fixed;
-//   // z-index: 999;
-//   // background-color: $lightBgCol;
-// }
+.Header {
+  position: fixed;
+  z-index: 999;
+  box-shadow: 1px 1px 7px rgba(78, 72, 72, 0.267);
+}

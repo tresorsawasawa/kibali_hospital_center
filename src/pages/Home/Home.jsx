@@ -4,7 +4,7 @@ import React from 'react';
 import './Home.scss';
 
 const Home = () => (
-  <section className="home relative w-full flex justify-center items-center pl-[10%] ">
+  <section className="home relative w-full flex justify-center items-center pl-[10%] pt-[8rem]">
     <h1>Home page</h1>
   </section>
 );
