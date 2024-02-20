@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import './Home.scss';
 
 const Home = () => (
-  <section className="hero w-full flex justify-center items-center">
+  <section className="hero w-full pt-[10rem] flex justify-center items-center">
     <div className="wrapper w-[85%] text-white gap-[2rem] flex justify-between items-start flex-col">
       <div className="welcomeAd relative px-[13px] py-[20px]">
         <div className="background" />
