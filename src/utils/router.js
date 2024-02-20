@@ -4,6 +4,8 @@ import NotFound from '../pages/NotFound/NotFound';
 import Services from '../pages/Services/Services';
 import About from '../components/About/About';
 import Home from '../pages/Home/Home';
+import Team from '../pages/Team/Team';
+import Appointment from '../pages/Appointment/Appointment';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
       {
         path: '/about_us',
         element: <About />,
+      },
+      {
+        path: '/our_doctors',
+        element: <Team />,
+      },
+      {
+        path: '/appointment',
+        element: <Appointment />,
       },
     ],
   },

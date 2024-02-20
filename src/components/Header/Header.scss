@@ -1,7 +1,9 @@
 @import '../../assets/stylesheets/base/colors';
+@import '../../assets/stylesheets/base/variables';
 
 .Header {
+  background-color: #fff;
   position: fixed;
   z-index: 999;
-  box-shadow: 1px 1px 7px rgba(78, 72, 72, 0.267);
+  box-shadow: $menuShadow;
 }

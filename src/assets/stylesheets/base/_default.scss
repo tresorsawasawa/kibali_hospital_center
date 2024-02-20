@@ -16,6 +16,25 @@ body {
   color: $textColor;
 }
 
+section { padding: 9rem 0 2rem; }
+
+.btn {
+  padding: 12px 20px;
+  background: $gradientColor;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background: $primary;
+  }
+
+  &:focus {
+    background-color: #fff;
+    color: #000;
+  } 
+}
 // font-family: var(--bs-font-sans-serif);
 // font-size: 1rem;
 // font-weight: 400;
