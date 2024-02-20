@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import uuid from 'uuid';
 import './Navbar.scss';
 import Logo from '../../assets/images/logo.png';
 
 const links = [
   {
-    id: uuid,
+    id: 1,
     label: 'home',
     name: 'Home',
     to: '/',
@@ -24,9 +23,9 @@ const links = [
     to: '/',
   },
   {
-    id: 5,
-    name: 'Your arrival',
-    label: 'arrival',
+    id: 4,
+    name: 'Pages',
+    label: 'pages',
     to: '/',
   },
   {
@@ -34,6 +33,12 @@ const links = [
     name: 'About',
     label: 'about',
     to: '/about_us',
+  },
+  {
+    id: 6,
+    name: 'Contact',
+    label: 'contact',
+    to: '/contact_us',
   },
 ];
 
