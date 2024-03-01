@@ -1,0 +1,63 @@
+@import '../../assets/stylesheets/base/colors';
+
+.about {
+  .wrapper {
+    .aboutRight {
+      .headings {
+        .secTitle {
+          &::after {
+            content: '';
+            position: absolute;
+            background: $grayColor;
+            width: 100px;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.secTitle2 {
+  &::after {
+    content: '';
+    position: absolute;
+    background: $grayColor;
+    width: 155px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: -1rem;
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+
+  .dot {
+    background-color: $primary;
+    height: 1rem;
+    width: 1rem;
+
+    &.selected {
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+  }
+}
+
+.imgBorderRadius {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.carousel-status {
+  display: none;
+}
