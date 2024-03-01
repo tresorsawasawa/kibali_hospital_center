@@ -33,12 +33,28 @@ body {
     color: #000;
   } 
 }
-// font-family: var(--bs-font-sans-serif);
-// font-size: 1rem;
-// font-weight: 400;
-// line-height: 1.5;
-// color: #848E9F;
-// background-color: #fff;
-// -webkit-text-size-adjust: 100%;
-// -webkit-tap-highlight-color: rgba(0,0,0,0);
 
+.titleAfter {
+  background: #10b5cb;
+  bottom: 5px;
+  content: "";
+  height: 6px;
+  position: absolute;
+  left: 0;
+  width: 120px;
+  z-index: -1;
+}
+
+select {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.brd8 {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.padTop50 {
+  margin-top: -8rem !important;
+}

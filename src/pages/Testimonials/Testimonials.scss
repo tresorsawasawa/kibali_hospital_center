@@ -1,0 +1,13 @@
+@import '../../assets/stylesheets/base/colors';
+
+.testimonials {
+  .wrapper {
+    .upperText {
+      .secTitle {
+        color: $primary;
+        border-bottom: 2px solid $grayColor;
+        width: auto;
+      }
+    }
+  }
+}
