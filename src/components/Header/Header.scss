@@ -1,0 +1,9 @@
+@import '../../assets/stylesheets/base/colors';
+@import '../../assets/stylesheets/base/variables';
+
+.Header {
+  background-color: #fff;
+  position: fixed;
+  z-index: 999;
+  box-shadow: $menuShadow;
+}

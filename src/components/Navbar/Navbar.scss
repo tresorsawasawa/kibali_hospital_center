@@ -1,0 +1,39 @@
+@import '../../assets/stylesheets/base/colors';
+@import '../../assets/stylesheets/base/mixins';
+
+.header {
+  margin: 0 auto;
+
+  .LogoContainer {
+    width: 150px;
+    height: 80px;
+  }
+
+  .navbar {
+    .navLinks {
+      .linkItem {
+        color: $textColor;
+
+        &:hover {
+          color: $primary;
+        }
+
+        .navLink {
+          position: relative;
+
+          &:hover {
+            color: $primary;
+          }
+
+          &.active {
+            color: $primary;
+
+            &::after {
+              @include navLinkActiveHove;
+            }
+          }
+        }
+      }
+    }
+  }
+}
