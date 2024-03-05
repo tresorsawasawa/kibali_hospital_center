@@ -12,7 +12,7 @@
         }
 
         .title {
-          font-size: calc(1.275rem + 0.3vw);;
+          font-size: calc(1.275rem + 0.3vw);
         }
       }
     }
@@ -28,15 +28,15 @@
               border: none;
               outline: none;
               cursor: pointer;
-            
+
               &:hover {
                 background: $white !important;
                 // border: 1px solid $dark;
                 color: $dark;
               }
-            
+
               &:focus {
-                background-color: none;
+                background: none;
                 border: 1px solid $dark;
                 color: $dark;
               }
@@ -66,4 +66,3 @@
     width: 140px;
   }
 }
-
