@@ -81,7 +81,7 @@ const About = () => {
 
   return (
     <section className="about w-full">
-      <div className="wrapper w-full border pt-[12rem]">
+      <div className="wrapper w-full pt-[12rem]">
         <div className="inner1 w-[85%] flex gap-[3rem] my-0 mx-auto pb-[4rem]">
           <div className="aboutLeft relative w-[40%] gap-[1.5rem]">
             <img
