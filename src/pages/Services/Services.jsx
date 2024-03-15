@@ -1,3 +1,4 @@
+/* eslint-disable no-return-assign */
 /* eslint-disable max-len */
 import React from 'react';
 import { HiOutlineClipboardCheck } from 'react-icons/hi';
@@ -77,48 +78,61 @@ const Services = () => (
           </div>
 
           <div className="aboutRight w-[50%] flex flex-col gap-[2rem]">
-            <div className="col-lg-6">
-              <div className="bg-white text-center rounded p-5">
-                <h1 className="mb-4">Book An Appointment</h1>
-                <form>
-                  <div className="row g-3">
-                    <div className="">
-                      <select className="form-select bg-light border-0">
-                        <option selected="">Choose Department</option>
-                        <option value="1">Department 1</option>
-                        <option value="2">Department 2</option>
-                        <option value="3">Department 3</option>
-                      </select>
-                    </div>
-                    <div className="">
-                      <select className="form-select bg-light border-0">
-                        <option selected="">Select Doctor</option>
-                        <option value="1">Doctor 1</option>
-                        <option value="2">Doctor 2</option>
-                        <option value="3">Doctor 3</option>
-                      </select>
-                    </div>
-                    <div className="">
-                      <input type="text" className="form-control bg-light border-0" placeholder="Your Name" />
-                    </div>
-                    <div className="">
-                      <input type="email" className="form-control bg-light border-0" placeholder="Your Email" />
-                    </div>
-                    <div className="">
-                      <div className="date" id="date">
-                        <input type="date" className="" placeholder="Date" />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="time" id="time">
-                        <input type="time" className="form-control bg-light border-0 datetimepicker-input" placeholder="Time" />
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <button className="btn btn-primary w-100 py-3" type="submit">Make An Appointment</button>
-                    </div>
+            <div className="bg-white flex flex-col text-center rounded p-[1rem] gap-[2rem] py-[3rem]">
+              <h1 className="mb-4 text-[2rem] font-bold">Book An Appointment</h1>
+              <form className="flex gap-[1rem]">
+                <div className="left flex flex-col gap-[1rem]">
+                  <div className="DepartmentsList">
+                    <select className="form-select bg-light border-0 w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]">
+                      <option selected="">Choose Department</option>
+                      <option value="1">Department 1</option>
+                      <option value="2">Department 2</option>
+                      <option value="3">Department 3</option>
+                    </select>
                   </div>
-                </form>
+                  <div className="nameInputCont">
+                    <input type="text" className="w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]" placeholder="Your Name" />
+                  </div>
+
+                  <div className="dateInputcont">
+                    <input
+                      placeholder="Date"
+                      type="text"
+                      className="w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]"
+                      onFocus={(e) => (e.target.type = 'date')}
+                      onBlur={(e) => (e.target.type = 'text')}
+                      id="date"
+                    />
+                  </div>
+                </div>
+                <div className="right flex flex-col gap-[1rem]">
+                  <div className="">
+                    <select className="form-select bg-light border-0 w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]">
+                      <option selected="">Select Doctor</option>
+                      <option value="1">Doctor 1</option>
+                      <option value="2">Doctor 2</option>
+                      <option value="3">Doctor 3</option>
+                    </select>
+                  </div>
+
+                  <div className="emailInputCont">
+                    <input type="email" className="w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem] bg-light border-0" placeholder="Your Email" />
+                  </div>
+
+                  <div className="timeInputcont">
+                    <input
+                      placeholder="Time"
+                      type="time"
+                      className="form-control bg-light border-0 w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem] outline-none"
+                      onFocus={(e) => (e.target.type = 'time')}
+                      onBlur={(e) => (e.target.type = 'text')}
+                      id="time"
+                    />
+                  </div>
+                </div>
+              </form>
+              <div className="col-12">
+                <NavLink to="/appointment" className="btn btn-primary w-100 py-3 text-white font-bold" type="submit">Make An Appointment</NavLink>
               </div>
             </div>
           </div>
