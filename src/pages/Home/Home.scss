@@ -1,4 +1,5 @@
 @import '../../assets/stylesheets/base/mixins';
+@import '../../assets/stylesheets/base/colors';
 
 .hero {
   background: url(../../assets/images/hero.jpg) top right no-repeat;
@@ -38,6 +39,35 @@
 
     .desc {
       max-width: 50%;
+    }
+  }
+}
+
+.appointment {
+  .inner1 {
+    .aboutLeft {
+      .buttonsContainer {
+        a {
+          padding: 12px 20px;
+          background: $dark !important;
+          border-radius: 3rem;
+          border: none;
+          outline: none;
+          cursor: pointer;
+
+          &:hover {
+            background: $white !important;
+            // border: 1px solid $dark;
+            color: $dark;
+          }
+
+          &:focus {
+            background: none;
+            border: 1px solid $dark;
+            color: $dark;
+          }
+        }
+      }
     }
   }
 }
