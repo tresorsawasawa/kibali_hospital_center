@@ -1,0 +1,30 @@
+@import '../../assets/stylesheets/base/colors';
+
+.appointment {
+  .inner1 {
+    .aboutLeft {
+      .buttonsContainer {
+        a {
+          padding: 12px 20px;
+          background: $primary;
+          border-radius: 3rem;
+          border: none;
+          outline: none;
+          cursor: pointer;
+
+          &:hover {
+            background: $white !important;
+            border: 1px solid $dark;
+            color: $dark;
+          }
+
+          &:focus {
+            background: none;
+            border: 1px solid $dark;
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
+}
