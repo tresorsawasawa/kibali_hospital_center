@@ -78,12 +78,12 @@ const Services = () => (
           </div>
 
           <div className="aboutRight w-[50%] flex flex-col gap-[2rem]">
-            <div className="bg-white flex flex-col text-center rounded p-[1rem] gap-[2rem] py-[3rem]">
+            <div className="bg-white flex flex-col text-center rounded px-[2rem] gap-[2rem] py-[3rem]">
               <h1 className="mb-4 text-[2rem] font-bold">Book An Appointment</h1>
               <form className="flex gap-[1rem]">
                 <div className="left flex flex-col gap-[1rem]">
                   <div className="DepartmentsList">
-                    <select className="form-select bg-light border-0 w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]">
+                    <select className="form-select bg-light border-0 w-[100%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]">
                       <option selected="">Choose Department</option>
                       <option value="1">Department 1</option>
                       <option value="2">Department 2</option>
@@ -91,14 +91,14 @@ const Services = () => (
                     </select>
                   </div>
                   <div className="nameInputCont">
-                    <input type="text" className="w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]" placeholder="Your Name" />
+                    <input type="text" className="w-[100%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]" placeholder="Your Name" />
                   </div>
 
                   <div className="dateInputcont">
                     <input
                       placeholder="Date"
                       type="text"
-                      className="w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]"
+                      className="w-[100%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]"
                       onFocus={(e) => (e.target.type = 'date')}
                       onBlur={(e) => (e.target.type = 'text')}
                       id="date"
@@ -107,7 +107,7 @@ const Services = () => (
                 </div>
                 <div className="right flex flex-col gap-[1rem]">
                   <div className="">
-                    <select className="form-select bg-light border-0 w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]">
+                    <select className="form-select bg-light border-0 w-[100%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem]">
                       <option selected="">Select Doctor</option>
                       <option value="1">Doctor 1</option>
                       <option value="2">Doctor 2</option>
@@ -116,14 +116,14 @@ const Services = () => (
                   </div>
 
                   <div className="emailInputCont">
-                    <input type="email" className="w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem] bg-light border-0" placeholder="Your Email" />
+                    <input type="email" className="w-[100%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem] bg-light border-0" placeholder="Your Email" />
                   </div>
 
                   <div className="timeInputcont">
                     <input
                       placeholder="Time"
                       type="time"
-                      className="form-control bg-light border-0 w-[90%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem] outline-none"
+                      className="form-control bg-light border-0 w-[100%] text-[#848e9f] bg-[#eff5f9] py-[0.5rem] px-[1rem] outline-none"
                       onFocus={(e) => (e.target.type = 'time')}
                       onBlur={(e) => (e.target.type = 'text')}
                       id="time"
