@@ -1,19 +1,20 @@
 import React from 'react';
-import { useRouteError, Link } from 'react-router-dom';
+import { useRouteError, NavLink } from 'react-router-dom';
 import { BsArrowLeft } from 'react-icons/bs';
+import './NotFound.scss';
 
 const NotFound = () => {
   const error = useRouteError();
 
   return (
-    <section className="notFoundContainer flex justify-center items-center flex-col">
-      <Link
+    <section className="notFoundContainer flex items-center pt-[5rem] flex-col">
+      <NavLink
         to="/"
-        className="back-to-home"
+        className="back-to-home text-[2rem] font-[600] flex justify-center items-center gap-[1rem]"
       >
         <BsArrowLeft />
         <span>Click this to go Back To the Homepage</span>
-      </Link>
+      </NavLink>
 
       <div className="text-container">
         <h3>{error.statusText || error.message}</h3>
