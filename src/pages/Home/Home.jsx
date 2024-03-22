@@ -120,7 +120,11 @@ const Home = () => {
         </div>
       </section>
 
-      <div className="inner2 w-full bg-[#13c5dd] flex items-center justify-center flex-col py-[5rem] gap-[3rem]">
+      <div className="padTop50">
+        <Team />
+      </div>
+
+      <div className="inner2 w-full mt-[-5rem] bg-[#13c5dd] flex items-center justify-center flex-col py-[5rem] gap-[3rem]">
         <div className="headings flex items-center justify-center flex-col gap-[2rem]">
           <h2 className="secTitle2 uppercase text-[20px] font-[600] relative text-white">
             Find a doctor
@@ -281,10 +285,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <div className="padTop50">
-        <Team />
-      </div>
 
       <div className="padTop51">
         <Testimonials />
