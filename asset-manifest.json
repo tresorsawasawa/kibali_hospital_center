@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.68087629.css",
+    "main.js": "/static/js/main.c1634287.js",
+    "static/media/logo.png": "/static/media/logo.e2c1b921e00be233e6af.png",
+    "static/media/404.jpg": "/static/media/404.f188a6e2a278c12a92e6.jpg",
+    "static/media/hero.jpg": "/static/media/hero.2c1b5ca27092753e4e0e.jpg",
+    "static/media/about.jpg": "/static/media/about.972802c810ecc64c7349.jpg",
+    "static/media/team-2.jpg": "/static/media/team-2.8d4592405df4fc1e912f.jpg",
+    "static/media/team-1.jpg": "/static/media/team-1.9be3601c41a0796c4564.jpg",
+    "static/media/team-3.jpg": "/static/media/team-3.9bc8958e33a74ae02351.jpg",
+    "static/media/united-kingdom-flag-icon.svg": "/static/media/united-kingdom-flag-icon.8411a74a2d01099b9cd827dcba16a600.svg",
+    "index.html": "/index.html",
+    "static/media/france-flag-icon.svg": "/static/media/france-flag-icon.bb9ca6102ad27276981f84b4eca3f85b.svg",
+    "main.68087629.css.map": "/static/css/main.68087629.css.map",
+    "main.c1634287.js.map": "/static/js/main.c1634287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68087629.css",
+    "static/js/main.c1634287.js"
+  ]
+}
