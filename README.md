@@ -1,38 +1,29 @@
-# kibali_hospital_center
+# Kibali Hospital Center
 
-![under construction](https://1bd5ffbc.kibali-hospital-center.pages.dev)
-
-#  path: '/',
-#  path: '/services',
-#  path: '/about_us',
-#  path: '/contact_us',
-#  path: '/our_doctors',
-#  path: '/appointment',
-#  path: '/testimonials',
+## Current available routes pages
+###  path: '/',
+###  path: '/services',
+###  path: '/about_us',
+###  path: '/contact_us',
+###  path: '/our_doctors',
+###  path: '/appointment',
+###  path: '/testimonials',
 
 <a name="readme-top"></a>
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [kibali\_hospital\_center](#kibali_hospital_center)
-- [path: '/',](#path-)
-- [path: '/services',](#path-services)
-- [path: '/about\_us',](#path-about_us)
-- [path: '/contact\_us',](#path-contact_us)
-- [path: '/our\_doctors',](#path-our_doctors)
-- [path: '/appointment',](#path-appointment)
-- [path: '/testimonials',](#path-testimonials)
+- [Kibali Hospital Center](#kibali-hospital-center)
+  - [Current available routes pages](#current-available-routes-pages)
+    - [path: '/',](#path-)
+    - [path: '/services',](#path-services)
+    - [path: '/about\_us',](#path-about_us)
+    - [path: '/contact\_us',](#path-contact_us)
+    - [path: '/our\_doctors',](#path-our_doctors)
+    - [path: '/appointment',](#path-appointment)
+    - [path: '/testimonials',](#path-testimonials)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Kibali Hospital Center\] ](#-kibali-hospital-center-)
   - [🛠 Built With ](#-built-with-)
