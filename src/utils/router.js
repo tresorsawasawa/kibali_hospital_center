@@ -8,6 +8,7 @@ import Team from '../pages/Team/Team';
 import Appointment from '../pages/Appointment/Appointment';
 import Testimonials from '../pages/Testimonials/Testimonials';
 import Contact from '../components/Contact';
+import Pages from '../pages/Pages/Pages';
 
 const router = createBrowserRouter([
   {
@@ -28,20 +29,25 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/our_doctors',
-        element: <Team />,
-      },
-      {
-        path: '/appointment',
-        element: <Appointment />,
-      },
-      {
-        path: '/testimonials',
-        element: <Testimonials />,
-      },
-      {
         path: '/contact_us',
         element: <Contact />,
+      },
+      {
+        element: <Pages />,
+        children: [
+          {
+            path: '/our_doctors',
+            element: <Team />,
+          },
+          {
+            path: '/appointment',
+            element: <Appointment />,
+          },
+          {
+            path: '/testimonials',
+            element: <Testimonials />,
+          },
+        ],
       },
     ],
   },
